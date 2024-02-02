@@ -1,4 +1,4 @@
-FROM node:21.6-bookworm-slim
+FROM node:21.6.1-alpine
 COPY graphserver.js .
 COPY package.json .
 COPY UScities.json .
